@@ -4,15 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/destination.css">
-    <title>Destination</title>
+    <title>destination</title>
     <style type="text/tailwindcss">
         @layer utilities {}
     </style>
 </head>
 <body>
-    <header>
-        <div class="containers"></div>
+    <header class="pt-[55px]">
+        <div class="flex justify-between  items-center  ">
+            <img class="ml-[55px]" src="./images/site-logo.svg" alt="img">
+            <div class="pl-[64px] w-[320px] h-[1px] bg-white"></div>
+            <div class=" py-[26px] px-[123px]  navbar-bg flex gap-[48px]">
+                <a class=" text-[white] text-[16px] font-normal " href="./space.html">00 HOME</a>
+                <a class=" text-[white] text-[16px] font-normal " href="./destination.html">01 DESTINATION</a>
+                <a class=" text-[white] text-[16px] font-normal " href="./crew.html.html"> 02 CREW</a>
+                <a class=" text-[white] text-[16px] font-normal " href="./technology.html">03 TECHNOLOGY</a>
+            </div>
+        </div>
     </header>
+    <main>
+        <!-- hero section -->
+        <section>
+            <div class="containers hero">
+       <div class="text-center justify-center sm:justify-start flex gap-[24px] mt-[76px]">
+         <p class="uppercase text-white text-[28px] opacity-[24%]">01</p>
+         <p class="uppercase text-[28px] text-[#FFFFFF]">Pick your destination</p>
+       </div>
+     
+       <!-- Main content: Image on the left, Info on the right -->
+       <div class="mt-[64px] flex gap-[206px] items-center">
+         
+         <!-- Moon Image -->
+         <div>
+           <img src="./images/hero-img..png" alt="hero bg img" width="455" height="455">
+         </div>
+         <div class="flex flex-col gap-[24px]">
+           
+           <!-- Tabs -->
+           <div class="flex gap-[36px]">
+             <p class="text-[#FFFFFF] text-[16px]">MOON</p>
+             <p class="text-[#D0D6F9] text-[16px]">MARS</p>
+             <p class="text-[#D0D6F9] text-[16px]">EUROPA</p>
+             <p class="text-[#D0D6F9] text-[16px]">TITAN</p>
+           </div>
+           <h1 class="text-[100px] text-white uppercase">Moon</h1>
+           <p class="text-[#D0D6F9] text-[18px] max-w-[444px]">
+             See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+           </p>
+           <div class="flex gap-[80px] mt-[32px] border-t border-gray-600 pt-[24px]">
+             <div>
+               <p class="text-[#D0D6F9] text-[14px] uppercase">Avg. Distance</p>
+               <p class="text-white text-[24px]">384,400 km</p>
+             </div>
+             <div>
+               <p class="text-[#D0D6F9] text-[14px] uppercase">Est. Travel Time</p>
+               <p class="text-white text-[24px]">3 Days</p>
+             </div>
+            </div>
+         </div>
+       </div>     
+     </div>
+        </section>
+    </main>
+
+
+
+
 
 
 

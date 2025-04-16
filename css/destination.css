@@ -24,4 +24,13 @@
 body{
     font-family: "Barlow", sans-serif;
     font-family: "Bellefair", sans-serif;
+    background-image:url(../images/bg-color.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.navbar-bg{
+    backdrop-filter: blur(81.54845428466797px);
+    background: rgba(255, 255, 255, 0.04);
+
 }
