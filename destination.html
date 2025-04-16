@@ -9,15 +9,15 @@
         @layer utilities {}
     </style>
 </head>
-<body>
+<body class=" h-[1500px] lg:h-[900px]">
     <header class="pt-[55px]">
         <div class="flex justify-between  items-center  ">
-            <img class="ml-[55px]" src="./images/site-logo.svg" alt="img">
-            <div class="pl-[64px] w-[320px] h-[1px] bg-white"></div>
-            <div class=" py-[26px] px-[123px]  navbar-bg flex gap-[48px]">
+            <img class="ml-[39px] lg:ml-[55px]" src="./images/site-logo.svg" alt="img">
+            <div class="hidden pl-[64px] lg:flex  w-[320px] h-[1px] bg-white"></div>
+            <div class="px-[48px] py-[26px] lg:px-[123px]  navbar-bg flex gap-[48px]">
                 <a class=" text-[white] text-[16px] font-normal " href="./space.html">00 HOME</a>
                 <a class=" text-[white] text-[16px] font-normal " href="./destination.html">01 DESTINATION</a>
-                <a class=" text-[white] text-[16px] font-normal " href="./crew.html.html"> 02 CREW</a>
+                <a class=" text-[white] text-[16px] font-normal " href="./crew.html"> 02 CREW</a>
                 <a class=" text-[white] text-[16px] font-normal " href="./technology.html">03 TECHNOLOGY</a>
             </div>
         </div>
@@ -26,22 +26,22 @@
         <!-- hero section -->
         <section>
             <div class="containers hero">
-       <div class="text-center justify-center sm:justify-start flex gap-[24px] mt-[76px]">
+       <div class="mb-[60px] lg:mb-[0px]  ml-[39px] lg:ml-[0px] text-center justify-center sm:justify-start flex gap-[24px] mt-[76px]">
          <p class="uppercase text-white text-[28px] opacity-[24%]">01</p>
          <p class="uppercase text-[28px] text-[#FFFFFF]">Pick your destination</p>
        </div>
      
        <!-- Main content: Image on the left, Info on the right -->
-       <div class="mt-[64px] flex gap-[206px] items-center">
+       <div class=" flex flex-col lg:flex lg:flex-row gap-[53px] lg:gap-[206px] items-center">
          
          <!-- Moon Image -->
-         <div>
+         <div class="mx-auto lg:mx-[0]">
            <img src="./images/hero-img..png" alt="hero bg img" width="455" height="455">
          </div>
-         <div class="flex flex-col gap-[24px]">
+         <div class="flex flex-col gap-[24px] text-center lg:text-start">
            
            <!-- Tabs -->
-           <div class="flex gap-[36px]">
+           <div class="flex gap-[36px] justify-center lg:justify-start">
              <p class="text-[#FFFFFF] text-[16px]">MOON</p>
              <p class="text-[#D0D6F9] text-[16px]">MARS</p>
              <p class="text-[#D0D6F9] text-[16px]">EUROPA</p>
@@ -51,8 +51,8 @@
            <p class="text-[#D0D6F9] text-[18px] max-w-[444px]">
              See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
            </p>
-           <div class="flex gap-[80px] mt-[32px] border-t border-gray-600 pt-[24px]">
-             <div>
+           <div class="flex justify-center lg:justify-start gap-[80px] mt-[32px] border-t border-gray-600 pt-[24px]">
+             <div class="">
                <p class="text-[#D0D6F9] text-[14px] uppercase">Avg. Distance</p>
                <p class="text-white text-[24px]">384,400 km</p>
              </div>
