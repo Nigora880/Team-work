@@ -27,7 +27,7 @@ body{
     background-image:url(../images/bg-color.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+   
 }
 .navbar-bg{
     backdrop-filter: blur(81.54845428466797px);
